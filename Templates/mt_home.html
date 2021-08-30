@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="eng">
+<head>
+    <meta charset="utf-8" />
+    <title>Machine Translate</title>
+</head>
+
+<body>
+<form id="trans" name="trans" method="POST">
+
+    <h1 style="font-family: Copperplate; font-weight: bold; text-align: center; ">WELCOME TO</h1>
+    <h2 style="color: #5e9ca0;font-family: Lucida Console; text-align: center;"><strong><span style="color: #2b2301;">MACHINE TARNSLATION</span></strong></h2>
+    <p>&nbsp;</p>
+    <h3 style="color: #2e6c80;">Choose Languages:</h3>
+    <select style="left: 100%;" name="Lang">
+    <option value="En2Fr">English - French</option>
+    <option value="Fr2En">French - English</option>
+    <option value="He2Ar">Hebrew - Aramaic</option>
+    <option value="Ar2He">Aramaic - Hebrew</option>
+    </select>
+    <h3 style="color: #2e6c80;">The sentence you want to translate:</h3>
+    <input id="sen" name="sen" type="text" />
+    <br></br>
+    <button class="btn action-btn" type="submit" id="run" name="run" align="middle">Translate :)</button>
+    <br></br>
+    <h3 style="color: #2e6c80;">The translation is:</h3>
+    <h5 style="color: #5e9ca0; text-align: left;">{{ word }}</h5>
+    <br></br>
+    <h6 style="color: #2e6c80;  text-align: center;">Alex Raam and Moran</h6>
+    </form>
+</body>
+</html>
